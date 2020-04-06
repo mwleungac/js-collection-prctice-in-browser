@@ -1,11 +1,11 @@
 'use strict';
 
 function collectSameElements(collectionA, collectionB) {
-    let sameElements = [];
+    let result = [];
       collectionA.forEach(element => {
     if (collectionB.includes(element)) {
-      sameElements.push(element);
+      result.push(element);
     }
   });
-  return sameElements;
+  return result;
 }
